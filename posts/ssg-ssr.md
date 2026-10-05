@@ -1,19 +1,12 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
-date: '2020-01-02'
+title: 'Agile, Scrum, and Kanban(The Core Methodologies)'
+date: '2026-10-05'
 ---
  
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
- 
-You can use Static Generation for many types of pages, including:
- 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
- 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
- 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
- 
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+Choosing the right project management methodology depends on your team size, product maturity, and delivery speed:
+
+Scrum (Iterative & Timeboxed): Best for teams building products with rapidly changing requirements. Work is divided into 1- to 2-week iterations called Sprints, ending with a working software increment.
+
+Kanban (Continuous Flow): Ideal for maintenance, DevOps, or continuous production environments. Focuses on visualizing workflow, limiting Work in Progress (WIP), and maximizing throughput.
+
+Hybrid / Waterfall: Common in hardware-software integration or heavily regulated industries where detailed upfront planning and strict compliance milestones are required.

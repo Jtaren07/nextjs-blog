@@ -13,8 +13,6 @@ export default function Post({ postData }) {
         <article>
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
             <div className={utilStyles.lightText}>
-                {postData.id}
-                <br />
                 <Date dateString={postData.date} />
             </div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
